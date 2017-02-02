@@ -1,20 +1,15 @@
 ﻿@using Quiron.LojaVirtual.Web.HTMLHelpers
 @model Quiron.LojaVirtual.Web.Models.ProdutosViewModel
-Quiron.LojaVirtual.Web.HTMLHelpers
 
 
 @foreach (var p in Model.Produtos)
 {
-   <div> 
-       <h3>@p.Nome</h3> 
-       @p.Descricao
-       <h3>@p.Preco.ToString("c")</h3>
-   </div> 
+    @Html.Partial("ProdutosDetalhes", p)
 }
 
 
 <!-- abaixo comando para colocar paginação no rodape da pagina -->
 
-@Html.PageLinks(Model.Paginacao, x => Url.Action("ListaProdutos", new { pagina = x}))
-
-
+<div class="btn-group pull-right">
+    @Html.PageLinks(Model.Paginacao, x => Url.Action("ListaProdutos", new { pagina = x}))
+</div>
