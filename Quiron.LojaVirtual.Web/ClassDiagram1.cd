@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Quiron.LojaVirtual.Web.RouteConfig">
+    <Position X="2.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\RouteConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quiron.LojaVirtual.Web.MvcApplication">
+    <Position X="0.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Global.asax.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quiron.LojaVirtual.Web.Controllers.ProdutosController">
+    <Position X="0.75" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\ProdutosController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quiron.LojaVirtual.Web.Controllers.VitrineController">
+    <Position X="3.5" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\VitrineController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quiron.LojaVirtual.Web.HTMLHelpers.PaginacaoHelpers">
+    <Position X="4.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HTMLHelpers\PaginacaoHelpers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quiron.LojaVirtual.Web.Models.Paginacao">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAACAAAAAAAAAAgAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Paginacao.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quiron.LojaVirtual.Web.Models.ProdutosViewModel">
+    <Position X="3.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAACAAAAAAAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ProdutosViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quiron.LojaVirtual.Dominio.Entidades.Produto">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Quiron.LojaVirtual.Dominio.Repositorio.EfDbContext">
+    <Position X="7" Y="3" Width="1.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Quiron.LojaVirtual.Dominio.Repositorio.ProdutosRepositorio">
+    <Position X="7" Y="5.25" Width="1.75" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
